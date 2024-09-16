@@ -100,8 +100,14 @@ li {
 .icons {
     margin: 2rem 0rem;
 }
+
 .banner {
     display: none;
+}
+
+.icon {
+    display: none;
+    color: black;
 }
 
 /* media query */
@@ -120,6 +126,10 @@ li {
         width: 75px;
         margin: 0rem 1rem;
         box-shadow: 0px 5px 10px #b6b6b6;
+    }
+
+    .banner {
+        display: block
     }
 }
 
@@ -140,13 +150,22 @@ li {
         display: flex;
         font-family: Montserrat, 'Helvetica Neue', sans-serif;
     }
+
     .fa {
-        padding: 1.5rem;
         border-radius: 40%;
         text-align: center;
         text-decoration: none;
         width: 100px;
-        margin: 0rem 1.5rem;
         box-shadow: 0px 5px 10px #b6b6b6;
+    }
+
+    .banner {
+        display: block
+    }
+
+    .icon {
+        display: block;
+        color: black;
+        font-size: 10px;
     }
 }
