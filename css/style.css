@@ -3,22 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
     --gia-color-primary: #ff9614;
+    --gia-color-secondary: #b7bdc8;
+    --gia-color-trd: #4e3969;
 }
 
 /* #region common */
 
 h1 {
-    color:var(--gia-color-primary);
-    font-size: 100px;
+    color: var(--gia-color-primary);
     text-align: center;
     font-family: 'Nerko One', cursive;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 /* #region utility  */
 
 .container {
-    width: 40%;
+    width: 80%;
     margin: auto;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+.dolci {
+    margin-bottom: 1rem;
+    color: var(--gia-color-secondary)
+}
+#tiramisu {
+    color: var(--gia-color-trd);
 }
