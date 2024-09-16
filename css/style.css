@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --gia-color-primary: #ff9614;
+}
+
+
+h1 {
+    color:var(--gia-color-primary);
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+}
