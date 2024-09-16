@@ -100,6 +100,9 @@ li {
 .icons {
     margin: 2rem 0rem;
 }
+.banner {
+    display: none;
+}
 
 /* media query */
 
@@ -138,12 +141,12 @@ li {
         font-family: Montserrat, 'Helvetica Neue', sans-serif;
     }
     .fa {
-        padding: 2rem;
+        padding: 1.5rem;
         border-radius: 40%;
         text-align: center;
         text-decoration: none;
-        width: 150px;
-        margin: 0rem 2rem;
+        width: 100px;
+        margin: 0rem 1.5rem;
         box-shadow: 0px 5px 10px #b6b6b6;
     }
 }
