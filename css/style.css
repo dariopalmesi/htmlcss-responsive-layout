@@ -7,10 +7,18 @@
     --gia-color-primary: #ff9614;
 }
 
+/* #region common */
 
 h1 {
     color:var(--gia-color-primary);
     font-size: 100px;
     text-align: center;
     font-family: 'Nerko One', cursive;
+}
+
+/* #region utility  */
+
+.container {
+    width: 40%;
+    margin: auto;
 }
