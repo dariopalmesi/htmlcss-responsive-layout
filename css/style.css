@@ -19,6 +19,9 @@ h1 {
     padding-top: 1rem;
     margin-bottom: 2rem;
 }
+img {
+    max-width: 100%;
+}
 
 /* #region utility  */
 
@@ -34,4 +37,5 @@ h1 {
 }
 #tiramisu {
     color: var(--gia-color-trd);
+    margin-bottom: 1rem;
 }
